@@ -1,0 +1,17 @@
+#body_background{
+    overflow: hidden;
+    width: 100%;
+    height: 1000px;
+    background: url(../../img/bubbles.png),
+    linear-gradient(to right, rgba(30, 75, 115, 1), rgba(255, 255, 255, 0)) no-repeat,
+    center center fixed,
+    no-repeat,
+    no-repeat bottom right,
+    left,
+    right;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+#header_background{
+    background-color:#f0eff4;
+}

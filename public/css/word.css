@@ -1,0 +1,8 @@
+.div_word a:hover {
+    /*text-shadow: 2px 2px 5px #333333;*/
+    /*font-size: 18px;*/
+}
+.clear_bl_black a{ /*清除底線設字體為黑*/
+    text-decoration:none;
+    color:black;
+}

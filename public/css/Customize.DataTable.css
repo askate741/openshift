@@ -1,0 +1,167 @@
+#data {
+    /*display: block;*/
+    /*border: 3px solid #eea236;*/
+    /*overflow: auto;*/
+    /*margin-top: -20px;*/
+    border: 3px solid #dddddd;
+}
+
+#search {
+    display: block;
+    border: 3px solid #dddddd;
+    padding: 1%;
+    text-align: center;
+}
+
+#search .form-control {
+    width: 85%;
+    display: inline-block;
+}
+
+#search .search_btn {
+    width: 5%;
+    margin-bottom: 2px;
+}
+
+.label_right {
+    display: inline-block;
+    float: right;
+    /*border: 3px solid #eea236;*/
+    width: 50%;
+    text-align: right;
+}
+
+.label_left {
+    display: block;
+    float: left;
+    /*border: 3px solid #eea236;*/
+    width: 50%;
+    text-align: left;
+}
+
+.label_arrange {
+    display: inline;
+    margin: 0;
+    width: 100%;
+    padding: 5px;
+    font-size: 16px;
+    -webkit-transition: font-size 0.2s ease-out;
+}
+
+.label_word_size {
+    font-size: 14px;
+    -webkit-transition: font-size 0.2s ease-out;
+}
+
+.button_padding_size {
+    padding: 1% 5%;
+    margin: 0 -0.5%;
+}
+
+.button_chevron_size {
+    margin-bottom: 5px;
+    padding: 0.8% 3%;
+}
+
+#table td {
+    border: 1px solid #dddddd;
+}
+
+#table tbody tr:hover {
+    color: #2e6da4;
+    font-size: 20px;
+    font-weight:bold;
+}
+
+/*#table td {
+    border: 1px solid #dddddd;
+}*/
+
+#table {
+    border: 2px solid #dddddd;
+}
+
+@media only screen and (max-width: 1200px) {
+    #search .form-control {
+        width: 85%;
+    }
+
+    .label_arrange {
+        font-size: 14px;
+    }
+
+    .label_word_size {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    #search .form-control {
+        width: 80%;
+    }
+
+    .label_arrange {
+        font-size: 13px;
+    }
+
+    .label_word_size {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    #search .form-control {
+        width: 70%;
+    }
+
+    #search .search_btn {
+        width: 40px;
+        margin-bottom: 2px;
+    }
+
+    .label_arrange {
+        font-size: 12px;
+    }
+
+    .label_word_size {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #search .form-control {
+        width: 60%;
+    }
+
+    #search .search_btn {
+        width: 40px;
+        margin-bottom: 2px;
+    }
+
+    .label_arrange {
+        font-size: 10px;
+    }
+
+    .label_word_size {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    #search .form-control {
+        width: 50%;
+    }
+
+    #search .search_btn {
+        width: 40px;
+        margin-bottom: 2px;
+    }
+
+    .label_arrange {
+        font-size: 8px;
+    }
+
+    .label_word_size {
+        font-size: 8px;
+    }
+}

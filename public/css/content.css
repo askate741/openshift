@@ -1,0 +1,61 @@
+section {
+    position: absolute;
+    overflow: auto; /*避免溢出*/
+    left: 20%;
+    right: 20%;
+    font-family: "微軟正黑體", Arial, Helvetica, sans-serif;
+    border-style: double;
+    margin: 0 auto;
+    text-align: left;
+}
+
+#attached {
+    display: block;
+    margin: 0;
+    width: 100%;
+    border-left: 3px solid #dddddd;
+    border-right: 3px solid #dddddd;
+    /*padding: 1% 3% 2% 3%;*/
+    padding: 1%;
+    overflow: auto;
+}
+
+#attached_function {
+}
+
+#attached_view {
+}
+
+/*#btn_trash {*/
+/*left: 5px;*/
+/*}*/
+
+/*#btn_new {*/
+/*left: 10px;*/
+/*}*/
+
+/*#btn_left {*/
+/*float: right;*/
+/*}*/
+
+/*#btn_right {*/
+/*float: right;*/
+/*}*/
+
+.choice {
+    padding: 0 5px 0 5px;
+}
+
+table {
+    /*overflow: auto;*/
+}
+
+#note {
+    font-size: 14px;
+    color: red;
+    float: left;
+}
+
+.error_color {
+    color: red;
+}

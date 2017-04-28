@@ -1,0 +1,33 @@
+#pdf {
+    display:block;
+    margin: auto;
+    border: 1px solid black;
+    page-break-before: always;
+    width: 210mm;
+    height: 297mm;
+}
+.pdf{
+
+}
+#option_up{
+    position:fixed;
+    z-index:9999;
+}
+
+#draggable { width: 150px; height: 150px; padding: 0.5em; }
+
+.background{
+    background-color:#e8e8e8;
+}
+@page  {
+    size: A4;
+    margin: 0;
+}
+
+@media print {
+    /*.NoPrint {display:none}*/
+    html, body {
+        width: 210mm;
+        height: 297mm;
+    }
+}

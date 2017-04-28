@@ -1,0 +1,58 @@
+#PrintArea {
+    width: 210mm;
+    height: 297mm;
+    /*border: solid 1px;*/
+    margin: auto;
+    display:none;
+}
+
+#PrintArea table {
+    border-collapse: collapse; /*讓格與格中間沒有間距*/
+}
+
+#PrintArea tr, td {
+    /*border: 0px solid #000;  !*有細內框也有細外框*!*/
+}
+
+#PrintArea img {
+    max-width: 100%;
+}
+#PrintArea th {
+    text-align: center;
+}
+/*.TableClone {*/
+    /*page-break-after:always;*/
+/*}*/
+.receipt_title { /*調整字體大小、粗體、置中*/
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.receipt_title_sm { /*粗體字*/
+    font-weight: bold;
+    border-bottom: 1px white solid; /*給予底線白，為了修復 .receipt_border_tbr 黑色底線的延伸*/
+}
+
+.receipt_title_sm_fn { /*粗體字帶有特殊字型*/
+    font-weight: bold;
+    font-family: 'Monotype Corsiva';
+    /*text-align: center;*/
+    border-bottom: 1px white solid; /*給予底線白，為了修復 .receipt_border_tbr 黑色底線的延伸*/
+}
+
+.receipt_border_n {
+    border-bottom: 1px white solid; /*給予底線白，為了修復 .receipt_border_tbr 黑色底線的延伸*/
+}
+
+.receipt_border_tbr { /*調整上下右框限*/
+    /*border-top: 1px black solid;*/
+    /*border-bottom: 1px black solid;*/
+    /*border-right: 1px black solid;*/
+    border: 1px black solid;
+}
+
+.receipt_border_bl { /*調整底線用、粗體字*/
+    font-weight: bold;
+    border-bottom: 2px black solid;
+}

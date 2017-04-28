@@ -1,0 +1,97 @@
+/*#main {*/
+/*width: auto;*/
+/*border: solid 1px #b2b3b5;*/
+/*padding: 20px;*/
+/*background-color: #f6f6f6;*/
+/*}*/
+
+/*fieldset {
+    border: none;
+    width: 320px;
+}*/
+
+/*legend {
+    font-size: 18px;
+    margin: 0px;
+    padding: 10px 0px;
+    color: #b0232a;
+    font-weight: bold;
+}*/
+
+/*label {
+    display: block;
+    margin: 15px 0 5px;
+}*/
+#SaveAccount {
+
+    display: block;
+    border: 2px solid #eea236;
+    text-align: center;
+    padding: 0 8.2% 0 8.2%;
+    background-color: #b0232a;
+    color: #fff;
+    text-decoration: none;
+    margin: 0 auto;
+    /* margin: 10px 40% 10px 40%;*/
+}
+
+#DeleteAccount {
+
+    display: block;
+    border: 2px solid #eea236;
+    text-align: center;
+    padding: 0 8.2% 0 8.2%;
+    background-color: #b0232a;
+    color: #fff;
+    text-decoration: none;
+    margin: 0 auto;
+    /* margin: 10px 40% 10px 40%;*/
+}
+
+.prev, .next {
+    display: block;
+    border: 2px solid #eea236;
+    text-align: center;
+    background-color: #b0232a;
+    color: #fff;
+    text-decoration: none;
+    margin: 10px 40% 5px 40%;
+}
+
+.prev:hover, .next:hover {
+    background-color: #000;
+    text-decoration: none;
+}
+
+/*.prev {*/
+/*float: left;*/
+/*}*/
+
+/*.next {*/
+/*float: right;*/
+/*}*/
+
+#steps {
+    list-style: none;
+    width: 100%;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+}
+
+#steps li {
+    font-size: 24px;
+    float: left;
+    padding: 10px;
+    color: #b0b1b3;
+}
+
+#steps li span {
+    font-size: 11px;
+    display: block;
+}
+
+#steps li.current {
+    color: #000;
+}
+
